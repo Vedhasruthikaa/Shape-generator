@@ -7,26 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--to get user input-->
     <div id="input">
-        <h1>Shape Creator</h1>
-        <br><br>
-        <p>Select a shape & enter the number</p>
-        <br>
+        <h1>SHAPE CREATOR</h1><br><br>
+        <p>Select the shape and enter a number</p><br>
+        <!--for radio buttons-->
         <div>
             <input type="radio" name="choice" value="circle" id="circle" checked>Circle
-            <input type="radio" name="choice" value="square" id="square">Square
-            <input type="radio" name="choice" value="rectangle" id="rectangle">Rectangle
+            <input type="radio" name="choice" value="square" id="square" checked>Square
+            <input type="radio" name="choice" value="rectangle" id="rectangle" checked>Rectangle
         </div>
         <br>
+        <!--for number box and button-->
         <div>
-            <input type="number" name="choice" id="number">
+            <input type="number" name="choice"  id="number">
             <button id="button">Generate</button>
         </div>
     </div>
-    <div class="container">
+
+    <!--fOR GENERATION OF SHAPES-->
+    <div class="container"`>
+        <!--for each shape-->
         <div class="box" id="box"></div>
+
     </div>
 
     <script src="./app.js"></script>
+    
 </body>
 </html>
